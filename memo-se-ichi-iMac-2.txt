@@ -1,0 +1,127 @@
+Web時代のプログラミング
+
+1. サーバーについて
+
+(1) UNIX とは
+
+ネットワークはUNIXから生まれた。
+1969年、AT&Tベル研究所、ケン・トンプソン、デニス・リッチー
+1973年、C言語で書き直された。
+主に大学や研究所で使われた。
+
+マルチユーザー、マルチタスク。
+
+各ユーザーは各端末からログインして作業する。
+各ユーザーにはホームディレクトリが割当てられ、各ユーザーのディレクトリに
+アプリケーションをインストールすることが可能である。
+
+
+(2) サーバー
+
+サーバーとは何か？
+
+  自作サーバーをつくる
+    Webサーバーの場合
+      ソフトウェアのインストール
+      OS / ftp / apache / vim / php / mysql / smpt / pop / gcc
+
+    Javaアプリケーションサーバーの場合
+      Tomcat / Payara / ...
+
+    ルータの設定
+    ネットワークの設定(DNS / ファイアーウォール)
+    ログの管理
+    固定IPアドレス(月額 1320円)
+    (あるいは Dynamic DNS Service)
+    バックアップ
+
+    公開ディレクトリ(/var/www/html) にコンテンツを用意する  
+
+
+(3) サーバーサービス
+
+自作以外でのサーバーのつくり方
+1) 共用サーバー
+2) VPS
+3) 専用サーバー
+4) クラウドサーバー
+
+VPS(Virtual Private Server)
+https://www.cocre-logo.com/blog/2771/
+WebARENA Indigo(1GB) 349円/月 / 容量 SSD:20GB / メモリ 1GB / CPU 仮想1コア
+
+クラウドサーバー
+Saas / Paas / Iaas
+(Software as a Service / Platform as a Service / Infrastructure as a Service)
+https://www.topgate.co.jp/saas-paas-iaas#iaas-2
+
+Saas -- Google Workspace
+Paas -- Google App Engine / Microsoft Azure
+Iaas -- Google Compute Engine / Amazon EC2
+
+Google Conpute Engine の場合
+$5.22/月  / micro(1shared) / メモリ 0.6GB
+
+サーバーの種類
+Webサーバー、MySQLサーバー、Oracleサーバー、DNSサーバー、ファイルサーバー。
+smtpサーバー、POPサーバー、IMAPサーバー
+
+
+2. 開発環境を構築する（サーバーを動作させる）
+
+(1) phpの役割、apacheの役割、MySQLの役割
+
+(2) XAMPP、MAMP をインストールする
+
+(3) コンテンツの配置
+
+/var/www/html/
+/home/*/pulic_html/
+C:\xampp\htdocs/
+
+サーブレット_JSP の場合は %CATALINA_HOME%/webapps あるいは wtpwebapps
+
+配置するファイル
+  index.html
+  index.php
+
+ 
+ 
+ 
+ 
+
+アプリケーション
+CUIアプリ
+GUIアプリ
+
+
+(1) コマンドプロンプトの使いかた
+
+各種コマンドの紹介(cd, dir, ipconfig, tree)
+
+ディレクトリ構造
+
+(2) コマンドプロンプト操作の必要性
+
+
+
+
+(3) Linuxを操作することの必要性
+
+サーバーを構築・保守する
+
+
+
+(5) GETとPOST
+
+
+(6) 
+
+
+(7) XAMPPやMAMPでの htdocs の役割
+
+
+
+
+
+;; 修正時刻: Tue Sep 28 16:36:18 2021
