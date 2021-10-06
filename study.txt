@@ -37,9 +37,11 @@ git のコマンド
 
 git clone https://github.com/<ユーザー名>/<リポジトリ名>.git
 
-git fetch -- リモートの変更をとりこむ
+git fetch -- リモートの変更を調べる
 
 git status -- 現在の状態を表示
+
+git pull -- リモートの状態をとりこむ
 
 git add . -- 変更箇所を追加
 
